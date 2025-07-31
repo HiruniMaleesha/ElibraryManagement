@@ -5752,11 +5752,26 @@
     <Content Include="fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="fontawesome\svgs\solid\z.svg" />
     <Content Include="fontawesome\svgs\solid\zap.svg" />
+    <Content Include="homepage.aspx" />
     <Content Include="imgs\books.png" />
+    <Content Include="imgs\defaulter-list.png" />
+    <Content Include="imgs\digital-inventory.png" />
+    <Content Include="imgs\home-bg.png" />
+    <Content Include="imgs\in-homepage-banner.png" />
+    <Content Include="imgs\library.jpg" />
+    <Content Include="imgs\search-online.png" />
+    <Content Include="imgs\signup.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
